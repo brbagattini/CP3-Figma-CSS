@@ -200,7 +200,7 @@ main > section {
     background-color: transparent;
 }
 
-#Entrega .texto {
+#Entrega #texto {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -212,11 +212,11 @@ main > section {
     background-color: transparent;
     margin: 0 0 15px 0;
 }
+#Entrega h1 {
+    font-size: 64px;
+}
 #Historia{
     height: 100vh;
-}
-#Depoimentos{
-    background-color: #eeefed;
 }
 .cardProduto {
     height: 430px;
@@ -229,7 +229,6 @@ main > section {
     justify-content: start;
     padding-top: 20px;
     position: relative;
-    margin-left: 50%;
 }
 .cardProduto .price{
     height: 92px;
@@ -260,4 +259,13 @@ main > section {
 .cardProduto h4 {
     color: rgba(0, 0, 0, 0.5);
     width: 175px;
+}
+#Depoimentos{
+    background-color: #eeefed;
+}
+#ProdutoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
 }
