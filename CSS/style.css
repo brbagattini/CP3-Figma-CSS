@@ -218,6 +218,28 @@ main > section {
 #Historia{
     height: 100vh;
 }
+#Historia #HistoriaContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    font-size: 20px;
+}
+#Historia #HistoriaContainer img{
+    width: 70%;
+    height: 550px;
+}
+#Historia #HistoriaContainer #HistoriaText{
+    flex-direction: column;
+    width: 50%;
+}
+#HistoriaText h5{
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+#HistoriaText h1{
+    font-size: 64px;
+}
 .cardProduto {
     height: 430px;
     width: 370px;
@@ -260,12 +282,12 @@ main > section {
     color: rgba(0, 0, 0, 0.5);
     width: 175px;
 }
-#Depoimentos{
-    background-color: #eeefed;
-}
 #ProdutoContainer{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: transparent;
+}
+#Depoimentos{
+    background-color: #eeefed;
 }
