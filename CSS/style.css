@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    object-fit: cover;
 }
 body {
     background-color: #fafaf8;
@@ -290,4 +291,72 @@ main > section {
 }
 #Depoimentos{
     background-color: #eeefed;
+}
+#DepoimentosContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: transparent;
+}
+
+#DepoimentosContainer h1, h4{
+    background-color: transparent;
+    justify-content: center;
+
+}
+#DepoimentosContainer h1{
+    margin-top: 50px;
+    font-size: 64px;
+}
+#DepoimentosContainer h4{
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.Comentario{
+    margin-top: 50px;
+    width: 640px;
+    height: 390px;
+    border-radius: 15% 5% 15% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Comentario h4{
+    width: 60%;
+}
+.Comentario h4:nth-of-type(1) {
+    top: -40px;
+    position: relative;
+}
+.Comentario h4:nth-of-type(2) {
+    color: black !important;
+    top: 40px;
+    position: relative;
+}
+.Comentario h4:nth-of-type(3) {
+    top: 40px;
+    position: relative;
+}
+.Comentario .estrelas{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.Comentario .estrelas .estrela {
+    font-size: 25px;
+    color: gold;
+    top: -60px;
+    position: relative;
+}
+.Comentario img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    top: -60px;
+    position: relative;
 }
