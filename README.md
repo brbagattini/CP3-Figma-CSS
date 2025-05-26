@@ -32,10 +32,9 @@ Cada detalhe do layout foi pensado para oferecer uma experiência simples e func
 - Uso de tags semânticas como `section`, `main`, `nav`, `article`, `footer`
 - Código limpo, indentado e com classes coerentes
 
-## 🔗 Links
+## 🔗 Link
 
-- 🔗 [Site no GitHub Pages](https://github.com/brbagattini/CP3-Figma-CSS)  
-- 🎨 [Protótipo no Figma]([https://www.figma.com/file/SEU-LINK](https://www.figma.com/design/aVOJkLrEr0FcvssVfXNWW1/Untitled?node-id=20-630))  
+- 🎨 [Protótipo no Figma]([https://www.figma.com/file/SEU-LINK](https://www.figma.com/design/aVOJkLrEr0FcvssVfXNWW1/Untitled?node-id=20-630]))  
 
 ## 👨‍👩‍👧‍👦 Integrantes do Grupo
 
