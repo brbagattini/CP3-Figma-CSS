@@ -34,7 +34,7 @@ Cada detalhe do layout foi pensado para oferecer uma experiência simples e func
 
 ## 🔗 Link
 
-- 🎨 [Protótipo no Figma]([https://www.figma.com/file/SEU-LINK](https://www.figma.com/design/aVOJkLrEr0FcvssVfXNWW1/Untitled?node-id=20-630]))  
+- 🎨 [Protótipo no Figma](https://www.figma.com/design/aVOJkLrEr0FcvssVfXNWW1/Untitled?node-id=20-630)  
 
 ## 👨‍👩‍👧‍👦 Integrantes do Grupo
 
