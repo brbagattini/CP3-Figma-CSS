@@ -1,6 +1,15 @@
-const menuToggle = document.getElementById('menu-toggle');
-const menuList = document.getElementById('menu-list');
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
 
-menuToggle.addEventListener('click', () => {
-  menuList.classList.toggle('active');
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      target.scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
+
+    // Fecha o menu no mobile após o clique
+    document.getElementById('menu-list').classList.remove('active');
+  });
 });
